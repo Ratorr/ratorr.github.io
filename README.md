@@ -5,7 +5,7 @@
   </P><p>
     <button onclick="about()">在Ratorr中搜索</button>
   </p><p>
-    <textarea id="result" width="300" height="400"></textarea>
+    <div id="result"/>
   </p>
 </div>
 <script>
