@@ -1,6 +1,7 @@
-#RATORR
 <div align="center">
   <p>
+    <img src="RATORR.png"/>
+  </p><p>
     <input id="search_input"/>
   </P><p>
     <button onclick="about()">在Ratorr中搜索</button>
