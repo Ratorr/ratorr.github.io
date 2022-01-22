@@ -2,9 +2,9 @@
   <p>
     <img src="RATORR.png"/>
   </p><p>
-    <input id="search_input"/>
+    <input id="search_input" style="width: 360px"/>
   </P><p>
-    <button onclick="about()">在Ratorr中搜索</button>
+    <button onclick="about()" style="border-style: none">在Ratorr中搜索</button>
   </p><p>
     <div id="result"/>
   </p>
