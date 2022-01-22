@@ -4,7 +4,7 @@
   </p><p>
     <input id="search_input" style="width: 300px"/>
   </P><p>
-  <button onclick="about()" style="border-style: none"><p>搜索</p></button>
+  <img src="icon/search.png" onclick="about()"/>
   </p><p>
     <div id="result"/>
   </p>
