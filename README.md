@@ -1,3 +1,4 @@
+#RATORR
 <div align="center">
   <p>
     <input id="search_input"/>
@@ -13,8 +14,8 @@
   function about(){
     document.getElementById("result").innerHTML=lib[document.getElementById("search_input").value];
     if(document.getElementById("search_input").value=="黑色收音机"){
-      document.getElementsById("au").setAttribute("src","Music/黑色收音机.mp3");
-      document.getElementsById("au").setAttribute("autoplay","autoplay");
+      document.getElementById("au").setAttribute("src","Music/黑色收音机.mp3");
+      document.getElementById("au").setAttribute("autoplay","autoplay");
     }
   }
 </script>
