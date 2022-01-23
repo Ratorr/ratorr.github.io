@@ -1,15 +1,8 @@
 <div align="center">
-  <p><h1>工具集合平台</h1></p>
-  <p><h2>游戏项目</h2></p>
-  <ol>
-    <li>打杆</li>
-    <li>Kill GOCHS</li>
-  </ol>
-  <p><h2>音乐项目</h2></p>
-  <ol>
-    <li>专辑1<ul><a/></ul><ul><a/></ul><ul><a/></ul><ul><a/></ul></li>
-    <li>专辑2<ul><a/></ul><ul><a/></ul><ul><a/></ul></li>
-  </ol>
+  <p><img src="RATTOR.png"/></p>
+  <p><h2>寻着你想要的工具...</h2></p>
+  <p><input style="width:350px" id="search"/></p>
+  <p><button id="go">在工具箱里搜索</button></p>
 </div>
 <audio id="au"/>
 <script>
