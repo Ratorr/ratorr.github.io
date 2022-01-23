@@ -14,7 +14,7 @@ function find()
 	for(var a=0;a<tools_text.length;a++){
 		if(tools_text[a].indexOf(document.getElementById("search").value)!=-1){
 			document.getElementById("shower").innerHTML+=
-			"<strong>"+tools_text[a]+"</strong><br/><a id='"+tools_text[a]+"' onclick='iframe_show();'>"+tools_intro[a]+"</a>"; 
+			"<strong>"+tools_text[a]+"</strong></br><a id='"+tools_text[a]+"' onclick='iframe_show();'>"+tools_intro[a]+"</a>"; 
 			total_result++;
 		}
 		if(tools_text.length-a==1){}
