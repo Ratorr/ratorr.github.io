@@ -2,7 +2,7 @@ var tools_text=[];
 	var i=0;
 document.getElementById("show_box").setAttribute("src","tools/"+i+".html");
 if(i<4){
-window.addEventListener('message',function(e){tools_text.push(e.data.msg);document.getElementById("show_box").setAttribute("src","tools/"+i+1+".html");i++;});
+window.addEventListener('message',function(e){tools_text.push(e.data.msg);document.getElementById("show_box").setAttribute("src","tools/"+(i+1).toString()+".html");i++;});
 }
 alert(tools_text.length);
 //document.getElementById("show_box").setAttribute("src","fu");
